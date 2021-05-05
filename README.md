@@ -52,7 +52,7 @@ let myCodableStore1 = CodeableStore<StoreModel>(key: "myappcodable", store: Stor
 myCodableStore1.read()
 myCodableStore1.store.apnsToken
 ```
-# In iOS App, you can call read at application launch time to get last saved value. 
+# In iOS App, you can call read() at application launch time to get last saved value. 
 
 
 
